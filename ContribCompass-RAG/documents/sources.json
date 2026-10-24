@@ -1,0 +1,7 @@
+{
+  "FASTAPI_README.md": "https://github.com/fastapi/fastapi/blob/master/README.md",
+  "CONTRIBUTING_GUIDE.md": "https://tiangolo.com/open-source/contributing/",
+  "DEVELOPMENT_SETUP.md": "https://github.com/fastapi/fastapi/blob/master/docs/en/docs/virtual-environments.md",
+  "DEPLOYMENT.md": "https://github.com/fastapi/fastapi/blob/master/docs/en/docs/deployment/manually.md",
+  "COMMUNITY_GUIDE.md": "https://github.com/fastapi/fastapi/blob/master/docs/en/docs/help-fastapi.md"
+}

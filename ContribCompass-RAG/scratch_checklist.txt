@@ -1,0 +1,18 @@
+REQUIRED:
+[x] Multi-format docs (.md, .txt, .pdf)
+[x] Cited answers with source file
+[x] Transparency (retrieved passages shown)
+[x] Safe refusal when not covered
+[x] 16-question evaluation set (we have 16)
+[x] "Where do I start?" onboarding checklist (2B bonus)
+
+BONUS:
+[x] RAG vs No-RAG comparison
+[x] Multiple documents with citations
+[x] Relevance threshold (tunable)
+[x] Hybrid retrieval (semantic + TF-IDF keyword + RRF)
+[x] Polished UI
+
+MISSING BONUS:
+[ ] Conversation memory (follow-up questions)
+[ ] Experiment matrix (compare chunk sizes / top-k / configs on test set)

@@ -1,0 +1,11 @@
+{
+  "verified_on": "2026-10-24",
+  "notes": "Contributor and community guides fetched from maintainer sources. README, virtual environment and deployment guides are previously downloaded source snapshots. Unverified synthetic samples preserved outside the indexed corpus in archived_samples.",
+  "sources": {
+    "FASTAPI_README.md": "https://github.com/fastapi/fastapi/blob/master/README.md",
+    "CONTRIBUTING_GUIDE.md": "https://tiangolo.com/open-source/contributing/",
+    "DEVELOPMENT_SETUP.md": "https://github.com/fastapi/fastapi/blob/master/docs/en/docs/virtual-environments.md",
+    "DEPLOYMENT.md": "https://github.com/fastapi/fastapi/blob/master/docs/en/docs/deployment/manually.md",
+    "COMMUNITY_GUIDE.md": "https://github.com/fastapi/fastapi/blob/master/docs/en/docs/help-fastapi.md"
+  }
+}

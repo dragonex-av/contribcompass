@@ -1,0 +1,9 @@
+.env
+.venv/
+__pycache__/
+.streamlit/secrets.toml
+*.pyc
+.uploads/
+.pytest_cache/
+archived_samples/
+.data/

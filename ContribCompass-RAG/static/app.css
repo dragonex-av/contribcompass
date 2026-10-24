@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
+:root{--accent:#a3e4cf;--muted:#979da9;--line:#2b2e36;}
+html,body,[class*="css"],.stApp{font-family:'DM Sans',sans-serif;}
+.stApp{background:#17191f;color:#f1f1f3;}
+h1,h2,h3{font-family:'Manrope',sans-serif!important;letter-spacing:-.04em;}
+[data-testid="stHeader"]{background:transparent;}
+[data-testid="stSidebar"]{background:#111318;border-right:1px solid #272a31;}
+[data-testid="stSidebar"] [data-testid="stVerticalBlock"]{gap:.55rem;}
+[data-testid="stSidebar"] button{text-align:left;border-color:transparent;background:transparent;border-radius:10px;}
+[data-testid="stSidebar"] button:hover{background:#25282f;border-color:#3d424d;}
+[data-testid="stSidebar"] button[kind="primary"]{background:#a3e4cf;color:#172820;}
+.block-container{max-width:1040px;padding-top:2.1rem;padding-bottom:2rem;}
+.brand{display:flex;align-items:center;gap:10px;font-family:Manrope,sans-serif;font-size:19px;font-weight:800;letter-spacing:-.5px;padding:10px 0 22px;}
+.brand-icon{display:inline-grid;place-items:center;width:31px;height:31px;border-radius:10px;background:#a3e4cf;color:#162b24;font-size:22px;}
+.section-label{color:#7f8695;font-size:10px;letter-spacing:.13em;font-weight:700;text-transform:uppercase;margin:18px 0 6px;}
+.topline{display:flex;align-items:center;gap:10px;color:#cbd0d8;font-size:13px;padding:5px 0 22px;}
+.topline span{color:#737d8b;}
+.tag{display:inline-block;border:1px solid #35473e;background:#1c2b25;color:#b7ead8;padding:4px 10px;border-radius:30px;font-size:11px;margin-right:6px;}
+.hero{text-align:center;padding:9vh 12px 20px;}
+.hero .spark{display:inline-grid;place-items:center;color:#a3e4cf;font-size:34px;width:64px;height:64px;background:#202d28;border:1px solid #3b5146;border-radius:21px;margin-bottom:24px;}
+.hero h1{font-size:clamp(30px,4vw,48px);font-weight:700;line-height:1.15;margin:0;color:#f4f5f7;}
+.hero p{font-size:15px;line-height:1.8;color:#a1a7b2;max-width:530px;margin:20px auto;}
+.hero small{font-size:11px;color:#83988e;letter-spacing:.09em;text-transform:uppercase;}
+.stButton>button{border:1px solid #343842;border-radius:12px;min-height:43px;transition:background .15s ease;}
+.stButton>button:hover{border-color:#87bda9;color:#b5ecd7;}
+[data-testid="stChatMessage"]{background:transparent;border-radius:16px;padding:1rem .5rem;}
+[data-testid="stChatMessage"]:has([data-testid="stChatMessageAvatarUser"]){background:#24272f;border:1px solid #30343d;margin-top:1rem;}
+[data-testid="stChatInput"]{border:1px solid #464c57!important;border-radius:22px!important;background:#272b33;box-shadow:0 8px 40px #0003;}
+[data-testid="stChatInput"] textarea{font-size:15px;}
+[data-testid="stBottom"]>div{background:#17191f!important;}
+[data-testid="stExpander"]{border:1px solid #313640;border-radius:12px;}
+[data-testid="stMetricValue"]{font-family:Manrope,sans-serif;font-size:27px;color:#b8ebd8;}
+[data-testid="stCaptionContainer"]{color:#9ba3b0;}
+[data-testid="stTabs"] button{font-size:13px;}
+.stCodeBlock{border:1px solid #363d46;border-radius:12px;}
+.account-note{border-top:1px solid #292d35;color:#8b94a2;margin-top:24px;padding:15px 0;font-size:12px;}
+a{color:#9ed8c4;}
+@media(max-width:640px){.block-container{padding:1rem .8rem 2rem}.hero{padding-top:4vh}.hero h1{font-size:30px}.hero p{font-size:14px}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
